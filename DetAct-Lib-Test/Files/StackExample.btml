@@ -1,0 +1,91 @@
+﻿/*
+* BT for stack-behaviour
+* ------------------------
+*
+* With evry tick the tree will 'Push' or 'Pop'.
+*  -> Client-answeres are not ticks.
+* If there is no client-answer before a timeout ends, the current action/condition fails.
+* A tick is send by the client with a tick-message.
+* New ticks will be only excepted, if the tree has been finished its tick.
+*
+* If the tree-root gets the FAILURE-status or a function-call wants to get a value
+* from a nonexisting key in a black-board, there is a runtime-error.
+* 
+* If a nonexisting key in a black-board is used to get a value,
+* the reffered action/condition gets the FAILURE-status directly without sending a message to a client.
+*
+* These rules are currently fixed and can not be changed without edeting the code directly.
+* Thats a design-choice for this prototype-state.
+* 
+* Configuration-values, function-values, behaviour-parameters, keys and values in black-boards are mapped as 'string'.
+* They need to be converted by other instances.
+* Currently no other types are supported.
+* 
+* Types of behaviours are 'dynamic' and can have any identifier [Letter(Letter|Digit|_)*]. In this example these types are:
+*  - Selector, Sequence
+*  - Inverter
+*  - Action, Condition
+*
+* These types will be checked while constructing the tree.
+* If there is no class defined for a given behaviour-type, the construction will fail.
+* 
+* A LowLevelBehaviour is defined by calling a function from the defined FunctionList.
+* The type-matching will be checked while verifying the statements after the parsing-state.
+* Types for parameters in functions (FunctionList) can be 'board' or 'string'.
+*
+* A HighLevelBehaviour is defined by having one or more childs given by an identifier.
+* The match of identifiers from behaviours and their childs (also identifiers/names from behaviours)
+* will be checked while verifying the statements after the parsing-state.
+* 
+* Strings are marked by surrounding quotes in a function-call.
+* Board-values are given by the black-board-name followed by a field-descriptor inside of square brackets.
+* A board-value at runtime is the value of the field-desriptor as key inside the given black-board.
+* If there is no key equal to a given field-descriptor in the blackboard when the function is called,
+* the board-value at runtime will be 'null'.
+*/
+
+/* ---------------------------------------------- START OF TREE-DEFINITION ---------------------------------------------- */
+
+/* --- Configurations */
+SendError:Config := "true";		/*default: false -> sends a runtime-error as error-mesage to the client*/
+AnswerTimeout:Config := "500";	/*default: 100 [ms] */
+
+/* --- Defeniton of initial BlackBoards */
+Default:BlackBoard := [(Pos, 0), (Push, true), (Item, null)];
+StackMemory:BlackBoard := [];
+
+/* --- Definition of client-supported functions */
+/*
+* Undercores at the end of function-names showing that the client needs to send a BlackBoard-operation
+* before is sends an answer back. That is a convention and not part of language-semantics.
+*/
+FunctionList := [
+					IsNull(board currentPos),
+					CheckPush(board push, board itemToPush),
+					IncrementPos_(board currentPos, string keyForPos),
+					DecrementPos_(board currentPos, string keyForPos),
+					GetItem_(board itemToPop),
+					SaveItem_(board posToPush, board itemToPush, string boardName)
+				];
+
+/* --- HighLevel-tree */
+ROOT := Stack;
+Stack:Selector := Push | Pop;
+
+Push:Sequence := CheckPush | Increment | Save;
+Pop:Sequence := CheckPop | IsEmpty | ReadItem | Decrement;
+
+CheckPop:Inverter := CheckPush;
+
+/* --- Conditions */
+IsEmpty:Condition := IsNull(Default[Pos]);
+CheckPush:Condition := CheckPush(Default[Push], Default[Item]);
+
+/* --- Actions */
+ReadItem:Action := GetItem_(StackMemory[Default[Pos]]);
+Increment:Action := IncrementPos_(Default[Pos], "Pos");
+Decrement:Action := DecrementPos_(Default[Pos], "Pos");
+Save:Action := SaveItem_(Default[Pos], Default[Item], "StackMemory");
+
+
+/*Foo:Repeater{5} := Bar;*/

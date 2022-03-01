@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetAct-Lib", "DetAct-Lib\DetAct-Lib.csproj", "{A6722183-7567-43E8-95D7-935F5CC2869E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetAct-Lib-Test", "DetAct-Lib-Test\DetAct-Lib-Test.csproj", "{DD28A48E-22FF-44EE-B66D-F0365351B2A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6722183-7567-43E8-95D7-935F5CC2869E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6722183-7567-43E8-95D7-935F5CC2869E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6722183-7567-43E8-95D7-935F5CC2869E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6722183-7567-43E8-95D7-935F5CC2869E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD28A48E-22FF-44EE-B66D-F0365351B2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD28A48E-22FF-44EE-B66D-F0365351B2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD28A48E-22FF-44EE-B66D-F0365351B2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD28A48E-22FF-44EE-B66D-F0365351B2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD82B3C4-8194-4A23-B8FE-F5DF48B9A900}
+	EndGlobalSection
+EndGlobal
