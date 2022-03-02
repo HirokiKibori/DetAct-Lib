@@ -1,0 +1,6 @@
+PAPYRUS_EDITOR.color.gradient=RGB {255, 255, 255};RGB {255, 255, 255};0;0
+PAPYRUS_EDITOR.font=1|Cascadia Code|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Cascadia Code;
+PAPYRUS_EDITOR.rulergrid.gridlinecolor=192,192,192
+PAPYRUS_EDITOR.rulergrid.gridlinestyle=2
+PAPYRUS_EDITOR.rulergrid.viewrulers=true
+eclipse.preferences.version=1

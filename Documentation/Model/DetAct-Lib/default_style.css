@@ -1,0 +1,101 @@
+*.default {
+	fontColor:#000000;
+	fontName:"Cascadia Code";
+	fontHeight:10;
+	fillColor:#FFFFFF;
+	transparency:0;
+	gradient:none;
+	lineColor:#000000;
+	elementIcon:false;
+	shadow:false
+}
+
+* {
+	fontName:"Cascadia Code";
+}
+
+Enumeration {
+	fontColor:#000000;
+	fontName:"Cascadia Code";
+	fontHeight:10;
+	fillColor:#FFFFFF;
+	transparency:0;
+	lineColor:#000000;
+	elementIcon:false;
+	shadow:false
+}
+
+EnumerationLiteral {
+	fontColor:#000000;
+	fontName:"Cascadia Code";
+	fontHeight:9;
+	fillColor:#FFFFFF;
+	transparency:0;
+	lineColor:#000000;
+	elementIcon:false;
+	shadow:false
+}
+
+Class {
+	fontColor:#000000;
+	fontName:"Cascadia Code";
+	fontHeight:10;
+	fillColor:#FFFFFF;
+	transparency:0;
+	lineColor:#000000;
+	elementIcon:false;
+	shadow:false
+}
+
+Property {
+	fontColor:#000000;
+	fontName:"Cascadia Code";
+	fontHeight:9;
+	fillColor:#FFFFFF;
+	transparency:0;
+	lineColor:#000000;
+	elementIcon:false;
+	shadow:false
+}
+
+Operation[concurrency=concurrent] {
+	fontColor:#000000;
+	fontName:"Cascadia Code";
+	fontHeight:9;
+	fillColor:#FFFFFF;
+	transparency:0;
+	lineColor:#000000;
+	elementIcon:false;
+	shadow:false
+}
+
+Association {
+	elementIcon:false;
+	shadow:false
+}
+
+Association {
+	fontColor:#000000;
+	fontHeight:9;
+	routing:Rectilinear;
+	lineColor:#000000
+}
+
+InstanceSpecification {
+	fontColor:#000000;
+	fontName:"Cascadia Code";
+	fillColor:#FFFFFF;
+	transparency:0;
+	lineColor:#000000;
+	elementIcon:false;
+	shadow:false
+}
+
+Interface {
+	fontName:"Cascadia Code";
+	fontHeight:10;
+	transparency:0;
+	lineColor:#000000;
+	shadow:false
+}
+
