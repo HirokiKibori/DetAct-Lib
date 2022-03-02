@@ -120,29 +120,26 @@
            x="16.10219"
            y="5.5673661">UndefinedStatement</tspan></text>
     </g>
-    <g
-       id="g76099">
-      <rect
-         style="fill:#b3bfdc;fill-opacity:1;stroke:#121c34;stroke-width:0.529167;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:0.9"
-         id="rect843"
-         width="144.36925"
-         height="44.611961"
-         x="9.7142153"
-         y="19.566008"
-         ry="6.614583"
-         rx="6.614583" />
-      <text
-         xml:space="preserve"
-         style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+    <rect
+       style="opacity:1;fill:#b3bfdc;fill-opacity:0.89999998;stroke:#121c34;stroke-width:0.529167;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect843"
+       width="144.36925"
+       height="44.611961"
+       x="9.7142153"
+       y="19.566008"
+       ry="6.614583"
+       rx="6.614583" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+       x="13.81464"
+       y="25.958958"
+       id="text6690"><tspan
+         sodipodi:role="line"
+         id="tspan6688"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
          x="13.81464"
-         y="25.958958"
-         id="text6690"><tspan
-           sodipodi:role="line"
-           id="tspan6688"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
-           x="13.81464"
-           y="25.958958">DetAct.Lib.BmlInterpreter</tspan></text>
-    </g>
+         y="25.958958">DetAct.Lib.BmlInterpreter</tspan></text>
     <g
        id="g80458"
        transform="translate(2.5238392,-0.46134797)">
@@ -269,21 +266,20 @@
          id="path68212" />
     </g>
     <g
-       id="g43682"
-       style="opacity:0.75">
+       id="g1137">
       <text
          xml:space="preserve"
-         style="font-size:4.9389px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+         style="font-size:4.9389px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:0.80000001;stroke-width:0.264583"
          x="96.291573"
          y="81.472"
          id="text39678"><tspan
            sodipodi:role="line"
            id="tspan39676"
-           style="fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+           style="fill:#121c34;fill-opacity:0.80000001;stroke-width:0.264583"
            x="96.291573"
            y="81.472">IDirector</tspan></text>
       <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:0.80000001;marker-end:url(#Arrow2Lend)"
          d="M 108.60764,76.29141 V 66.290555"
          id="path68267" />
     </g>
