@@ -1,0 +1,30 @@
+USED PACKAGES:
+##################################
+
+DetAct-Lib (dependencies):
+----------------------------------
+
+- Pidgin: https://github.com/benjamin-hodgson/Pidgin (MIT)
+
+- .Net (6.0.2):
+		Microsoft.NETCore.App: https://github.com/dotnet/runtime (MIT)
+		System.Text.Json.SourceGeneration: https://github.com/dotnet/runtime [https://www.nuget.org/packages/System.Text.Json/] (MIT)
+		
+		Microsoft.CodeAnalysis.NetAnalyzers: https://github.com/dotnet/roslyn-analyzers (MIT)
+		Microsoft.CodeAnalysis.CSharp.NetAnalyzers: https://github.com/dotnet/roslyn-analyzers (MIT)
+
+
+DetAct-Lib-Test (dependencies - not in build):
+----------------------------------
+
+- coverlet.collector: https://github.com/coverlet-coverage/coverlet (MIT)
+- Microsoft.NET.Test.Sdk: https://github.com/microsoft/vstest/ (MIT)
+- xunit: https://github.com/xunit/xunit (http://www.apache.org/licenses/LICENSE-2.0
+		+ MIT for 'src/common/Annotations.cs')
+- xunit.runner.visualstudio: https://github.com/xunit/visualstudio.xunit (http://www.apache.org/licenses/LICENSE-2.0
+		+ MIT for 'src/xunit.runner.visualstudio/Utility/AssemblyResolution/Microsoft.DotNet.PlatformAbstractions'
+		+ MIT for 'src/xunit.runner.visualstudio/Utility/AssemblyResolution/Microsoft.DotNet.PlatformAbstractions')
+
+
+OTHER LICENSES:
+##################################
