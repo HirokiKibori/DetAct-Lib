@@ -83,24 +83,23 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g9931"
-       transform="translate(0,8.5872462)">
+       id="g1021">
       <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-         d="M 79.279417,19.395156 V 5.9400673"
+         style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         d="M 79.279417,27.982402 V 14.527313"
          id="path66752"
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
          style="font-size:4.9389px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
          x="75.045021"
-         y="4.0528293"
+         y="12.640076"
          id="text54406"><tspan
            sodipodi:role="line"
            id="tspan54404"
            style="fill:#121c34;fill-opacity:1;stroke-width:0.264583"
            x="75.045021"
-           y="4.0528293">ERR</tspan></text>
+           y="12.640076">ERR</tspan></text>
     </g>
     <rect
        style="fill:#b3bfdc;fill-opacity:0.9;stroke:#121c34;stroke-width:0.529167;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -126,7 +125,7 @@
        id="g80458"
        transform="translate(2.5238392,8.1258982)">
       <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
          d="M 87.807294,42.342656 H 108.67071"
          id="path61355" />
       <text
@@ -190,24 +189,23 @@
            y="41.235729">Parser</tspan></text>
     </g>
     <g
-       id="g9926"
-       transform="translate(0,8.5872462)">
+       id="g977">
       <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-         d="M 118.51932,29.449323 V 6.469234"
+         style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         d="M 118.51932,38.036569 V 15.05648"
          id="path59294"
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
          style="font-size:4.9389px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
          x="114.4668"
-         y="4.0516233"
+         y="12.638869"
          id="text38574"><tspan
            sodipodi:role="line"
            id="tspan38572"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';fill:#121c34;fill-opacity:1;stroke-width:0.264583"
            x="114.4668"
-           y="4.0516233">OUT</tspan></text>
+           y="12.638869">OUT</tspan></text>
     </g>
     <g
        id="g80894"
@@ -246,7 +244,7 @@
            x="66.963341"
            y="80.977631">IAnalyzer</tspan></text>
       <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
          d="M 79.279411,76.29141 V 66.290555"
          id="path68212" />
     </g>
@@ -265,7 +263,7 @@
            x="96.291573"
            y="81.472">IDirector</tspan></text>
       <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:0.8;marker-end:url(#Arrow2Lend)"
+         style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:0.8;marker-end:url(#Arrow2Lend)"
          d="M 108.60764,76.29141 V 66.290555"
          id="path68267" />
     </g>
@@ -273,7 +271,7 @@
        id="g80453"
        transform="translate(2.5238392,8.1258982)">
       <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
          d="M 40.229023,42.342656 H 61.09244"
          id="path61335" />
       <text
@@ -289,7 +287,7 @@
            y="96.246178">AAST</tspan></text>
     </g>
     <g
-       id="g11844">
+       id="g1105">
       <text
          xml:space="preserve"
          style="font-size:4.9389px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
@@ -302,7 +300,7 @@
            y="89.938675"
            id="tspan38436">IN</tspan></text>
       <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
          d="M 28.561455,84.878656 V 57.447833"
          id="path61333" />
       <text
@@ -318,53 +316,6 @@
            sodipodi:role="line">(<tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#121c34;fill-opacity:1"
    id="tspan78320">*.tbml</tspan>)</tspan></text>
-    </g>
-    <g
-       id="g43672"
-       transform="translate(0,8.5872462)">
-      <text
-         xml:space="preserve"
-         style="font-size:4.9389px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
-         x="42.181553"
-         y="89.847885"
-         id="text33588"><tspan
-           sodipodi:role="line"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#121c34;fill-opacity:1;stroke-width:0.264583"
-           x="42.181553"
-           y="89.847885"
-           id="tspan33590">Mapping</tspan></text>
-      <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-         d="M 51.148777,85.4991 V 62.433206 L 36.071587,48.016212"
-         id="path78975"
-         sodipodi:nodetypes="ccc" />
-      <path
-         style="fill:none;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 2.11667;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-         d="M 51.148776,62.433205 67.616217,48.082433"
-         id="path79355"
-         sodipodi:nodetypes="cc" />
-      <text
-         xml:space="preserve"
-         style="font-size:4.93889px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
-         x="39.390182"
-         y="96.27449"
-         id="text5214"><tspan
-           sodipodi:role="line"
-           id="tspan5212"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#121c34;fill-opacity:1;stroke-width:0.264583"
-           x="39.390182"
-           y="96.27449">Functions</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:4.93889px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
-         x="32.608856"
-         y="102.44844"
-         id="text13726"><tspan
-           sodipodi:role="line"
-           id="tspan13724"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#121c34;fill-opacity:1;stroke-width:0.264583"
-           x="32.608856"
-           y="102.44844">Configurations</tspan></text>
     </g>
     <g
        id="g43562"
@@ -431,7 +382,7 @@
              x="125.6198"
              y="81.472">IBuilder</tspan></text>
         <path
-           style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+           style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
            d="M 136.57816,76.29141 V 66.290555"
            id="path68265" />
       </g>
@@ -467,15 +418,15 @@
       </g>
     </g>
     <g
-       id="g9940"
-       transform="translate(0,8.5872462)">
+       id="g1073">
       <path
-         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-         d="M 40.492507,19.395156 V 8.5859006"
+         style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         d="M 40.492507,27.982402 V 17.173147"
          id="path23899"
          sodipodi:nodetypes="cc" />
       <g
-         id="g9527">
+         id="g9527"
+         transform="translate(0,8.5872462)">
         <text
            xml:space="preserve"
            style="font-size:4.9389px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
@@ -541,6 +492,56 @@
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:'Consolas Italic'"
    id="tspan24620">.Net Roslyn</tspan>)</tspan></text>
       </g>
+    </g>
+    <g
+       id="g2012">
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+         x="42.181553"
+         y="98.435135"
+         id="text33588"><tspan
+           sodipodi:role="line"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+           x="42.181553"
+           y="98.435135"
+           id="tspan33590">Mapping</tspan></text>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         d="M 51.148777,71.020452 36.071587,56.603458"
+         id="path78975"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#2a3e6d;fill-opacity:1;stroke:#2a3e6d;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 2.11667;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         d="M 51.148776,71.020451 67.616217,56.669679"
+         id="path79355"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+         x="39.390182"
+         y="104.86174"
+         id="text5214"><tspan
+           sodipodi:role="line"
+           id="tspan5212"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+           x="39.390182"
+           y="104.86174">Functions</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.93889px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+         x="32.608856"
+         y="111.03569"
+         id="text13726"><tspan
+           sodipodi:role="line"
+           id="tspan13724"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Consolas;-inkscape-font-specification:'Consolas Italic';fill:#121c34;fill-opacity:1;stroke-width:0.264583"
+           x="32.608856"
+           y="111.03569">Configurations</tspan></text>
+      <path
+         style="fill:#2a3e6d;stroke:#2a3e6d;stroke-width:0.52916667;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 51.148776,71.020452 V 93.357241"
+         id="path1713" />
     </g>
   </g>
 </svg>
