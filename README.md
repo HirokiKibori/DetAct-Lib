@@ -37,7 +37,7 @@ DSL for behaviour-trees:
 There is an example-application for this framework. You can find it here:\
 [DetAct - https://github.com/HirokiKibori/DetAct](https://github.com/HirokiKibori/DetAct)
 
-(*On wiki-pages tere will be more examples in the future.*)
+(*On wiki-pages there will be more examples in the future.*)
 
 ## Roadmap
 There are many things to do until v0.5:
