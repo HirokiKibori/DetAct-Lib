@@ -1,7 +1,10 @@
 # DetAct-Lib
-```
-Currently, this is a prototype! There will be changes in the future. (Finishing v0.5 is planed in 2022.)
-```
+
+![.NET](https://img.shields.io/static/v1?label=.NET&message=6.0&color=blue)
+![.NET](https://img.shields.io/static/v1?label=version&message=0.0&color=yellow)
+![.NET](https://img.shields.io/static/v1?label=status&message=under%20construction%20(prototype)&color=red)
+
+Currently, this is a prototype! There will be changes in the future. (Finishing v1.0 is planed in 2022.)
 
 ## Description
 DetAct-Lib is a framework which offers the possibility to define behaviour of an instance with a tree-based behaviour-model. Such a definition is described in a syntactic modelling language (BTML). Currently, a behaviour-model can be used to create a behaviour-tree.\
